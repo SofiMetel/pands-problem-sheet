@@ -1,8 +1,10 @@
 # pands-problem-sheet
 
-# week 01 - created helloworld.py and pushed to GitHub
+# week 01 
+created helloworld.py and pushed to GitHub
 
-# week 02 - bank.py
+# week 02 
+bank.py
 
 The program should:
 
@@ -17,7 +19,8 @@ Enter amount2(in cent): 180
 The sum of these is €2.45
 ```
 
-# week 03 - accounts.py
+# week 03 
+accounts.py
 
 Weekly Task 03
 Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs).
@@ -29,7 +32,8 @@ Please enter an 10 digit account number: 1234567890
 XXXXXX7890
 ```
 
-# week 03  EXTRA task - extraaccounts.py
+# week 03  EXTRA task 
+extraaccounts.py
 
 TASK: Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
 
