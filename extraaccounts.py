@@ -1,8 +1,8 @@
 #author: Sofiia Meteliuk
 
 #week03 EXTRA task
-#Please enter an 10 digit account number: 1234567890
-#XXXXXX7890
+#Please enter account number: 12345678901234
+#XXXXXXXXXX1234
 
 #Extra:
 #Modify the program to deal with account numbers of any length 
