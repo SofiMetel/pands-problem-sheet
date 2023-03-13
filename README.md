@@ -43,3 +43,30 @@ In any way we want to show only the last 4 characters.
 I used len() and replace() because I`ve used them in DataCamp https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-3-functions-and-packages/
 
 
+# week 04
+collatz.py
+Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
+At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
+Have the program end if the current value is one.
+
+it`s the first idea - should change print outs, so it will be one row not a column
+
+
+# week 05
+weekday.py
+
+Write a program that outputs whether or not today is a weekday. 
+
+An example of running this program on a Thursday is given below.
+```
+$ python weekday.py
+Yes, unfortunately today is a weekday.
+```
+
+An example of running it on a Saturday is as follows:
+```
+$ python weekday.py
+It is the weekend, yay!
+```
+#main idea from https://www.geeksforgeeks.org/python-datetime-weekday-method-with-example/?ref=rp 
+
