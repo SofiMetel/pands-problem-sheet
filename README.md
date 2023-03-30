@@ -49,7 +49,18 @@ Write a program that asks the user to input any positive integer and outputs the
 At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 Have the program end if the current value is one.
 
-it`s the first idea - should change print outs, so it will be one row not a column
+I used while and if\else loop in the first raw idea. The answer was printed out as a column that didn`t matched answer in the task brief. 
+```
+$ python collatz.py
+
+Please enter a positive integer: 10
+
+10 5 16 8 4 2 1
+```
+So I created empty list and added every new value to this list. The answer is list but without brackets or commas. 
+```
+print(*answer, sep = " ")
+```
 
 
 # week 05
@@ -103,10 +114,14 @@ $ python es.py moby-dick.txt
 moby-dick.txt is the first three pages of moby dick from http://www.literaturepage.com/read.php?titleid=mobydick&abspage=13&changesize=3
 
 
-1. What is command line argument? 
+1.  What is command line argument? 
 according to https://www.geeksforgeeks.org/python-sys-module/ 
 
 > Command-line arguments are those which are passed during the calling of the program along with the calling statement. To achieve this >using the sys module, the sys module provides a variable called sys.argv. It’s main purpose are:
 >1. It is a list of command-line arguments.
 >2. len(sys.argv) provides the number of command-line arguments.
 >3. sys.argv[0] is the name of the current Python script.
+
+I used sys module to take the secong argument from command line (that should be text file)
+then I open it and read
+then use .count() to count number of e's
