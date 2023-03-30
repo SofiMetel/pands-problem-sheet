@@ -89,3 +89,24 @@ The first google attempt lead me to https://medium.com/@sddkal/newton-square-roo
 I added input\output + round function to make sure my print out is nice. 
 
 Should I add input\output to the main function?
+
+
+# weekly task 07
+
+TASK: Write a program that reads in a text file and outputs the number of e's it contains. 
+The program should take the filename from an argument on the command line.
+```
+$ python es.py moby-dick.txt
+116960
+```
+
+moby-dick.txt is the first three pages of moby dick from http://www.literaturepage.com/read.php?titleid=mobydick&abspage=13&changesize=3
+
+
+1. What is command line argument? 
+according to https://www.geeksforgeeks.org/python-sys-module/ 
+
+> Command-line arguments are those which are passed during the calling of the program along with the calling statement. To achieve this >using the sys module, the sys module provides a variable called sys.argv. It’s main purpose are:
+>1. It is a list of command-line arguments.
+>2. len(sys.argv) provides the number of command-line arguments.
+>3. sys.argv[0] is the name of the current Python script.

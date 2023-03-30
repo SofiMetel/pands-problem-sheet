@@ -1,18 +1,20 @@
 #Weekly task 07
-
 #author: Sofiia Meteliuk
 
-#Write a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making.
-#The program should take the filename from an argument on the command line. I have not shown you how to do this, you need to look it up.
+'''
+Write a program that reads in a text file and outputs the number of e's it contains. 
+The program should take the filename from an argument on the command line.
+ moby-dick.txt is the first three pages of moby dick from http://www.literaturepage.com/read.php?titleid=mobydick&abspage=13&changesize=3
+'''
 
-# copied three pages of moby dick from http://www.literaturepage.com/read.php?titleid=mobydick&abspage=13&changesize=3
 
-import sys
+import sys #sys module
 
+file = sys.argv[1] # sys.argv[0] is name of program file (es.py), so sys.argv[1] is the second argument that should be the name of file to read
 
-with open({sys.argv[0]} , 'r') as f:   # open document as f
-    mobydick = f.read()
+with open(file,"r") as f:   # open document as f
+    mobydick = f.read() 
     f.close ()
 
-number = mobydick.count ('e')  
-print (number)
+number = mobydick.count('e') #count number of letters 'e' in the text file
+print(number) #print number of e`s
