@@ -62,6 +62,10 @@ So I created empty list and added every new value to this list. The answer is li
 print(*answer, sep = " ")
 ```
 
+Reference for output was found in group discussion chat https://stackoverflow.com/questions/11178061/print-list-without-brackets-in-a-single-row
+After goggling more about sep paremetr I found answer in paragraph "Separating Multiple Arguments" from https://realpython.com/python-print/
+
+
 
 # week 05
 weekday.py

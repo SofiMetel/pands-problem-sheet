@@ -13,12 +13,16 @@
 
 import matplotlib.pyplot as plt 
 import numpy as np
+from numpy import random
+
+random.seed(123)
+
 x = np.array(range(0,10))
 y = x**3
 plt.plot(x, y, 'r', label = "h(x)=x^3")
 
-np.random.seed(123)
-normdistr = np.random.normal(loc=5, scale = 2, size=1000)
+
+normdistr = random.normal(loc=5, scale = 2, size=1000)
 plt.hist(normdistr, label='normal distribution')
 
 plt.xlabel('x')

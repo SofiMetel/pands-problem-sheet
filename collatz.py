@@ -19,3 +19,8 @@ while integer!=1:  #the program will end if the current value =1
         
 #print(answer)
 print(*answer, sep = " ") #making output looks alike, no brackets, no commas
+
+'''
+reference for output was found in group discussion chat https://stackoverflow.com/questions/11178061/print-list-without-brackets-in-a-single-row
+After goggling more about sep paremetr I found answer in paragraph "Separating Multiple Arguments" from https://realpython.com/python-print/
+'''

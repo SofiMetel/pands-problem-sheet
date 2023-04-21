@@ -22,5 +22,7 @@ sum = int(input1) + int(input2) # step 2.
 output = "The sum of these is €{:.2f}" 
 print(output.format(sum/100))
 
+
+
 #or one more way for step 3.
 #print(f"The sum of these is €{sum/100}")
