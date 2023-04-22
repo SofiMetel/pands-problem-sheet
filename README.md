@@ -29,6 +29,8 @@ I read tutorial about floating point and found out that decimal package can help
 https://docs.python.org/3/tutorial/floatingpoint.html#tut-fp-issues
 
 ```
+#a=sum/100
+#print(type(a))
 decimalnum=Decimal.from_float((sum/100))
 print(type(decimalnum))
 print(output.format(decimalnum))
@@ -172,3 +174,13 @@ according to https://www.geeksforgeeks.org/python-sys-module/
 I used sys module to take the secong argument from command line (that should be text file)
 then I open it and read
 then use .count() to count number of e's
+
+# weekly task 08
+Task:
+ Write a program called plottask.py that displays:
+a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
+and a plot of the function  h(x)=x3 in the range [0, 10], 
+on the one set of axes.
+Some marks will be given for making the plot look nice (legend etc).
+
+I used tutorials from https://www.w3schools.com/python/matplotlib_pyplot.asp 
