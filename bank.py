@@ -56,6 +56,6 @@ So I decided to turn integer into decimal and then perform division
 '''
 
 sum = Decimal(input1) + Decimal(input2) # step 2.
-print(type(sum))
-print(type(sum/100))
+#print(type(sum))
+#print(type(sum/100))
 print(output.format(sum/100)) #step 3
